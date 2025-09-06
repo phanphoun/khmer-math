@@ -1,0 +1,36 @@
+// Professional and Trustworthy Palette
+// $color-primary: #2C3E50;   // dark blue
+// $color-secondary: #7F8C8D; // grey
+// $color-background: #ECF0F1; // light grey/white
+// $color-accent: #27AE60;    // subtle green accent
+
+// Fun and Energetic Palette
+$color-primary: #F39C12;   // bright orange-yellow
+$color-secondary: #16A085; // vibrant teal
+$color-background: #FDFEFE; // almost white
+$color-accent: #E74C3C;    // bold red accent
+
+
+@mixin center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+// _variables.scss
+
+// Colors
+// $color-primary: #2C3E50;
+// $color-secondary: #7F8C8D;
+// $color-background: #ECF0F1;
+// $color-accent: #27AE60;
+
+// Fonts
+$font-primary: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+// Spacing
+$spacing-small: 8px;
+$spacing-medium: 16px;
+$spacing-large: 24px;
+
